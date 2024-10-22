@@ -4,17 +4,22 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import {
   createBrowserRouter,
-  Router,
+ 
   RouterProvider,
 } from "react-router-dom";
+import Home from './Components/Home';
+import Root from './Root/Root';
+import NotFound from './NotFound/NotFound';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Router></Router>,
+    element:<Root></Root>,
+    errorElement:<NotFound></NotFound>,
     children:[
       {
-      
+      path:"/",
+      element:<Home></Home>
 
       }
     ]
