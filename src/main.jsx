@@ -10,6 +10,7 @@ import {
 import Home from './Components/Home';
 import Root from './Root/Root';
 import NotFound from './NotFound/NotFound';
+import ContactUs from './Components/ContactUs';
 
 const router = createBrowserRouter([
   {
@@ -20,7 +21,10 @@ const router = createBrowserRouter([
       {
       path:"/",
       element:<Home></Home>
-
+      },
+      {
+        path:"/contactUs",
+        element:<ContactUs></ContactUs>
       }
     ]
   },

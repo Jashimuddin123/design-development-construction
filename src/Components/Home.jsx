@@ -1,11 +1,21 @@
 
+import Banner from "./Banner";
+// import Header from "./Header";
+import WorkProcces from "./WorkProcces";
+import ExpartTeam from "./ExpartTeam";
 
 const Home = () => {
-    return (
-        <div>
-            <h2>this is home  section here</h2>
-        </div>
-    );
+  return (
+    <div className="w-3xl border border-blue-400">
+      {/* <Header /> */}
+      <Banner />
+      <ExpartTeam />
+
+         
+
+      <WorkProcces />
+    </div>
+  );
 };
 
 export default Home;
