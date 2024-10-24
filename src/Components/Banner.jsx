@@ -10,7 +10,7 @@ import "swiper/css/scrollbar";
 // import Swiper core and required modules
 import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from "swiper/modules";
 import Marquee from "react-fast-marquee";
-import Header from "./Header";
+
 
 const Banner = () => {
   return (
@@ -33,16 +33,18 @@ const Banner = () => {
     src="https://i.ibb.co.com/rFsnGz4/cover1.jpg"
     alt="Cover 1"
   />
-  <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-40 flex flex-col justify-center items-center p-4 rounded">
-  <Header></Header>
-    <p className="text-2xl sm:text-3xl lg:text-5xl font-mono font-extralight text-white text-center shadow-lg">
-      We are Development Company <br />
-      <span className="text-yellow-300 font-bold">We Provide Qualityful Service in Our Country</span>
-    </p>
-    <button className="mt-4 px-6 py-2 bg-yellow-500 text-white rounded-full hover:bg-yellow-400 transition duration-300">
-      Learn More
-    </button>
-  </div>
+<div className="absolute  -top-16 left-0 w-full h-full bg-black bg-opacity-40 flex flex-col justify-end items-center p-4 mb-8 rounded">
+  {/* <Header></Header> */}
+  <p className="text-2xl sm:text-3xl lg:text-5xl font-extralight text-teal-300 text-center shadow-lg">
+    We are Development Company <br />
+    <span className="text-teal-300 ">We Provide Qualityful Service in Our Country</span>
+  </p>
+  <button className="mt-4 px-6 py-2 bg-teal-900 text-white rounded-full hover:bg-yellow-400 transition duration-300">
+    Learn More
+  </button>
+</div>
+
+
 
           </div>
         </SwiperSlide>
@@ -55,13 +57,13 @@ const Banner = () => {
     src="https://i.ibb.co.com/9TRgrZy/cover2.jpg"
     alt="Cover 2"
   />
-  <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-40 flex flex-col justify-center items-center p-4 rounded">
-  <Header></Header>
-    <p className="text-2xl sm:text-3xl lg:text-5xl font-mono font-extralight text-white text-center shadow-lg">
+  <div className="absolute  -top-16 left-0 w-full h-full bg-black bg-opacity-40 flex flex-col justify-end items-center p-4 mb-8 rounded">
+  {/* <Header></Header> */}
+    <p className="text-2xl sm:text-3xl lg:text-5xl font-extralight text-teal-300 text-center shadow-lg">
       We are Development Company <br />
-      <span className="text-yellow-300 font-bold">We Provide Qualityful Service in Our Country</span>
+      <span className="text-teal-300 ">We Provide Qualityful Service in Our Country</span>
     </p>
-    <button className="mt-4 px-6 py-2 bg-yellow-500 text-white rounded-full hover:bg-yellow-400 transition duration-300">
+    <button className="mt-4 px-6 py-2 bg-teal-900 text-white rounded-full hover:bg-yellow-400 transition duration-300">
       Learn More
     </button>
   </div>
@@ -77,13 +79,13 @@ const Banner = () => {
      src="https://i.ibb.co.com/XLJ4zBg/cover3.jpg"
     alt="Cover 3"
   />
-  <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-40 flex flex-col justify-center items-center p-4 rounded">
-  <Header></Header>
-    <p className="text-2xl sm:text-3xl lg:text-5xl font-mono font-extralight text-white text-center shadow-lg">
+  <div className="absolute  -top-16 left-0 w-full h-full bg-black bg-opacity-40 flex flex-col justify-end items-center p-4 mb-8 rounded">
+  {/* <Header></Header> */}
+    <p className="text-2xl sm:text-3xl lg:text-5xl font-extralight text-teal-300 text-center shadow-lg">
       We are Development Company <br />
-      <span className="text-yellow-300 font-bold">We Provide Qualityful Service in Our Country</span>
+      <span className="text-teal-300 ">We Provide Qualityful Service in Our Country</span>
     </p>
-    <button className="mt-4 px-6 py-2 bg-yellow-500 text-white rounded-full hover:bg-yellow-400 transition duration-300">
+    <button className="mt-4 px-6 py-2 bg-teal-900 text-white rounded-full hover:bg-yellow-400 transition duration-300">
       Learn More
     </button>
   </div>
@@ -98,13 +100,13 @@ const Banner = () => {
     src="https://i.ibb.co.com/rFsnGz4/cover1.jpg"
     alt="Cover 4"
   />
-  <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-40 flex flex-col justify-center items-center p-4 rounded">
-  <Header></Header>
-    <p className="text-2xl sm:text-3xl lg:text-5xl font-mono font-extralight text-white text-center shadow-lg">
+  <div className="absolute  -top-16 left-0 w-full h-full bg-black bg-opacity-40 flex flex-col justify-end items-center p-4 mb-8 rounded">
+  {/* <Header></Header> */}
+    <p className="text-2xl sm:text-3xl lg:text-5xl  font-extralight text-teal-300 text-center shadow-lg">
       We are Development Company <br />
-      <span className="text-yellow-300 font-bold">We Provide Qualityful Service in Our Country</span>
+      <span className="text-teal-300 ">We Provide Qualityful Service in Our Country</span>
     </p>
-    <button className="mt-4 px-6 py-2 bg-yellow-500 text-white rounded-full hover:bg-yellow-400 transition duration-300">
+    <button className="mt-4 px-6 py-2 bg-teal-900 text-white rounded-full hover:bg-yellow-400 transition duration-300">
       Learn More
     </button>
   </div>
@@ -113,7 +115,7 @@ const Banner = () => {
         </SwiperSlide>
         {/* You can add more slides as needed */}
       </Swiper>
-      <Marquee className="text-5xl font-serif text-red border my-4 text-red-600" pauseOnHover={true}>
+      <Marquee className="text-5xl font-serif text-red border my-4 text-teal-600" pauseOnHover={true}>
                     Youngone Corporation is a leading global manufacturer of outdoor/athletic clothing, textiles, footwear, and gear built with a history of innovation, partnership, and trust.
                 </Marquee>
     </div>

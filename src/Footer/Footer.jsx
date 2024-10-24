@@ -3,7 +3,7 @@ import { FaFacebook } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#042d5b] text-white py-10 w-full">
+    <footer className="bg-teal-900 text-white py-10 w-full">
       <div className="w-full px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         
         {/* Logo and Description */}
@@ -12,11 +12,6 @@ const Footer = () => {
           <p className="text-gray-300">
             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
           </p>
-          <div className="space-x-4 ml-4  my-4 flex items-center  w-52 gap-2">
-          <a href="#" className=""><FaFacebook className="text-2xl "/></a>
-          <a href="#" className="text-gray-400"><FaGithub className="text-2xl"/></a>
-          <a href="#" className="text-gray-400"><FaInstagram className="text-2xl text-red-800"/></a>
-        </div>
         </div>
         
         {/* Useful Links */}
