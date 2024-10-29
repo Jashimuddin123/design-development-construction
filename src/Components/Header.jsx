@@ -13,9 +13,7 @@ const Header = () => {
                 <button className="px-5 py-2 bg-[#D72050] text-white rounded">
                     UPDATE
                 </button>
-                <Marquee pauseOnHover={true}>
-                    Youngone Corporation is a leading global manufacturer of outdoor/athletic clothing, textiles, footwear, and gear built with a history of innovation, partnership, and trust.
-                </Marquee>
+             
             </div>
         </div>
     );

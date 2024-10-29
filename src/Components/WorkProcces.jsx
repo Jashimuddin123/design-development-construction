@@ -22,8 +22,9 @@ const WorkProcces = () => {
                     {/* Overlay */}
                     <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition duration-300"></div>
                     <div className="card-body items-center text-center relative z-10 group-hover:text-white">
-                        <h2 className="card-title text-lg md:text-xl font-semibold">General Discussion</h2>
-                        <p className="text-sm md:text-base">If a dog chews shoes whose shoes does he choose?</p>
+                        <h2 className="card-title text-lg md:text-xl font-semibold">
+                            Planning Phase</h2>
+                        
                     </div>
                 </div>
 
@@ -31,7 +32,7 @@ const WorkProcces = () => {
                 <div className="relative group card bg-base-100 w-full shadow-xl overflow-hidden">
                     <figure className="px-10 pt-10">
                         <img
-                            src="https://i.ibb.co.com/XLJ4zBg/cover3.jpg"
+                            src="https://i.ibb.co.com/pfyWrCW/img6.jpg"
                             alt="Project Planning"
                             className="rounded-xl transition-transform duration-300 group-hover:scale-105"
                         />
@@ -39,8 +40,8 @@ const WorkProcces = () => {
                     {/* Overlay */}
                     <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition duration-300"></div>
                     <div className="card-body items-center text-center relative z-10 group-hover:text-white">
-                        <h2 className="card-title text-lg md:text-xl font-semibold">Servey Face</h2>
-                        <p className="text-sm md:text-base">If a dog chews shoes whose shoes does he choose?</p>
+                        <h2 className="card-title text-lg md:text-xl font-bold">Survey Phase</h2>
+                       
                     </div>
                 </div>
 
@@ -48,7 +49,7 @@ const WorkProcces = () => {
                 <div className="relative group card bg-base-100 w-full shadow-xl overflow-hidden">
                     <figure className="px-10 pt-10">
                         <img
-                            src="https://i.ibb.co.com/XLJ4zBg/cover3.jpg"
+                            src="https://i.ibb.co.com/z2dWs5H/img3.png"
                             alt="Interior Design"
                             className="rounded-xl transition-transform duration-300 group-hover:scale-105"
                         />
@@ -56,8 +57,8 @@ const WorkProcces = () => {
                     {/* Overlay */}
                     <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition duration-300"></div>
                     <div className="card-body items-center text-center relative z-10 group-hover:text-white">
-                        <h2 className="card-title text-lg md:text-xl font-semibold">Architectural Structurel Design</h2>
-                        <p className="text-sm md:text-base">If a dog chews shoes whose shoes does he choose?</p>
+                        <h2 className="card-title text-lg md:text-xl font-semibold">Design Phase</h2>
+                       
                     </div>
                 </div>
 
@@ -65,7 +66,7 @@ const WorkProcces = () => {
                 <div className="relative group card bg-base-100 w-full shadow-xl overflow-hidden">
                     <figure className="px-10 pt-10">
                         <img
-                            src="https://i.ibb.co.com/XLJ4zBg/cover3.jpg"
+                            src="https://i.ibb.co.com/3fnKymq/images4.jpg"
                             alt="Interior Design"
                             className="rounded-xl transition-transform duration-300 group-hover:scale-105"
                         />
@@ -73,8 +74,8 @@ const WorkProcces = () => {
                     {/* Overlay */}
                     <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition duration-300"></div>
                     <div className="card-body items-center text-center relative z-10 group-hover:text-white">
-                        <h2 className="card-title text-lg md:text-xl font-semibold">Construction Design</h2>
-                        <p className="text-sm md:text-base">If a dog chews shoes whose shoes does he choose?</p>
+                        <h2 className="card-title text-lg md:text-xl font-semibold">Construction Phase</h2>
+                        
                     </div>
                 </div>
             </div>

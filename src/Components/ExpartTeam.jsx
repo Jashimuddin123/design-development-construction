@@ -1,5 +1,6 @@
 
 import { GoArrowLeft, GoArrowRight } from "react-icons/go";
+import { Link } from "react-router-dom";
 
 const ExpartTeam = () => {
     return (
@@ -12,80 +13,97 @@ const ExpartTeam = () => {
             </div>
 
             {/* Card section here */}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                {/* Card 1 */}
-                <div>
-                <div className="relative group w-full h-72 bg-cover bg-center rounded-lg overflow-hidden shadow-lg" style={{ backgroundImage: 'url(https://i.ibb.co.com/XLJ4zBg/cover3.jpg)' }}>
-                    {/* Social Icons - Initially hidden */}
-                    <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 border-orange-500 border-8 transition-opacity duration-300">
-                        {/* <a href="https://facebook.com" className="text-white mx-2">
-                            <FaFacebookF size={24} className="text-white bg-blue-500 w-8 h-8 p-1" />
-                        </a>
-                        <a href="https://twitter.com" className="bg-white text-black rounded-full p-1">
-                            <FaTwitter size={24} />
-                        </a> */}
-                    </div>
-                </div>
-                <h2 className="text-center text-blue-500">Company CEO</h2>
-                <h2 className="text-center text-black font-bold text-xl">Jashim Uddin</h2>
-                </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 px-4 md:px-0">
+<Link to="/constructionTeam">
+<div className="border-4 bg-teal-100 rounded-lg border-teal-400 shadow-lg transform transition duration-500 hover:scale-105 hover:shadow-xl hover:bg-teal-200 ">
+        <img 
+            className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 mt-4 rounded-full mx-auto "
+            src="https://i.ibb.co.com/b2GhwBf/mustafizur-Rahman.jpg" alt="Mustafijur Rahman" 
+        />
+        <h1 className="text-2xl md:text-3xl font-bold text-center mt-4 text-gray-800">Mustafijur Rahman</h1>
+        <p className="text-center text-gray-600">Project Manager</p>
+        <div className="flex justify-center mt-4 mb-4">
+        <Link to="/constructionTeam" className=" mb-3 w-32 py-3 ml-2 text-white rounded px-4">
+        <button className="px-4 py-2 bg-blue-700 text-white w-32  rounded-full hover:bg-red-500"> Profile</button>
+                         </Link>
+        </div>
+    </div>
+</Link>
 
-                {/* Card 2 */}
-                <div>
-                <div className="relative group w-full h-72 bg-cover bg-center rounded-lg overflow-hidden shadow-lg" style={{ backgroundImage: 'url(https://i.ibb.co.com/XLJ4zBg/cover3.jpg)' }}>
-                    <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 border-orange-500 border-8 transition-opacity duration-300">
-                        {/* <a href="https://facebook.com" className="text-white mx-2">
-                            <FaFacebookF size={24} className="text-white bg-blue-500 w-8 h-8 p-1" />
-                        </a>
-                        <a href="https://twitter.com" className="bg-white text-black rounded-full p-1">
-                            <FaTwitter size={24} />
-                        </a> */}
-                    </div>
-                </div>
-                <h2 className="text-center text-blue-500">Project Manager</h2>
-                <h2 className="text-center text-black font-bold text-xl">Iqbal Hossain</h2>
-                </div>
+    <div className="border-4 bg-teal-100 rounded-lg border-teal-400 shadow-lg transform transition duration-500 hover:scale-105 hover:shadow-xl hover:bg-teal-200">
+        <img 
+            className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 mt-4 rounded-full mx-auto "
+            src="https://i.ibb.co.com/gMPjLCt/Whats-App-Image-2024-10-29-at-20-53-58-74e0bd35.jpg" alt="Mustafijur Rahman" 
+        />
+        <h1 className="text-2xl md:text-3xl font-bold text-center mt-4 text-gray-800">
+        Ferdoush Hasann</h1>
+        <p className="text-center text-gray-600 text-lg font-bold">Architect</p>
+        <div className="flex justify-center mt-4 mb-4">
+        <Link to="/architech" className=" mb-3 w-32 py-3 ml-2 text-white rounded px-4">
+        <button className="px-4 py-2 bg-blue-700 w-32 text-lg text-white rounded-full hover:bg-red-500">See Profile</button>
+                         </Link>
+        </div>
+    </div>
+    <div className="border-4 bg-teal-100 rounded-lg border-teal-400 shadow-lg transform transition duration-500 hover:scale-105 hover:shadow-xl hover:bg-teal-200">
+        <img 
+            className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 mt-4 rounded-full mx-auto "
+            src="https://i.ibb.co.com/N3qFYBv/ruhul-kuddos.jpg" alt="Mustafijur Rahman" 
+        />
+        <h1 className="text-2xl md:text-3xl font-bold text-center mt-4 text-gray-800">
+        Ruhul Quddus</h1>
+        <p className="text-center text-gray-600">Cheif Structure Engineer</p>
+        <div className="flex justify-center mt-4 mb-4">
+        <Link to="/structure" className=" mb-3 w-32 py-3 ml-2 text-white rounded px-4">
+        <button className="px-4 py-2 bg-red-400 text-white rounded-full hover:bg-red-500">See Profile</button>
+                         </Link>
+        </div>
+    </div>
+    <div className="border-4 bg-teal-100 rounded-lg border-teal-400 shadow-lg transform transition duration-500 hover:scale-105 hover:shadow-xl hover:bg-teal-200">
+        <img 
+            className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 mt-4 rounded-full mx-auto "
+            src="https://i.ibb.co.com/mSWMny2/md-masiur-rahman.jpg" alt="Mustafijur Rahman" 
+        />
+        <h1 className="text-2xl md:text-3xl font-bold text-center mt-4 text-gray-800">
+        MD. MOSHIUR RAHMAN</h1>
+        <p className="text-center text-gray-600">⁠Structure Engineer</p>
+        <div className="flex justify-center mt-4 mb-4">
+        <Link to="/structure" className=" mb-3 w-32 py-3 ml-2 text-white rounded px-4">
+        <button className="px-4 py-2 bg-red-400 text-white rounded-full hover:bg-red-500">See Profile</button>
+                         </Link>
+        </div>
+    </div>
+    <div className="border-4 bg-teal-100 rounded-lg border-teal-400 shadow-lg transform transition duration-500 hover:scale-105 hover:shadow-xl hover:bg-teal-200">
+        <img 
+            className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 mt-4 rounded-full mx-auto "
+            src="https://i.ibb.co.com/MfsJZw3/md-mahbubul-islam.jpg" alt="Mustafijur Rahman" 
+        />
+        <h1 className="text-2xl md:text-3xl font-bold text-center mt-4 text-gray-800">
+        MD. MAHABUBUL ISLAM</h1>
+        <p className="text-center text-gray-600">⁠Geotechnical Engineer</p>
+        <div className="flex justify-center mt-4 mb-4">
+        <Link to="/structure" className=" mb-3 w-32 py-3 ml-2 text-white rounded px-4">
+        <button className="px-4 py-2 bg-red-400 text-white rounded-full hover:bg-red-500">See Profile</button>
+                         </Link>
+        </div>
+    </div>
+    <div className="border-4 bg-teal-100 rounded-lg border-teal-400 shadow-lg transform transition duration-500 hover:scale-105 hover:shadow-xl hover:bg-teal-200">
+        <img 
+            className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 mt-4 rounded-full mx-auto "
+            src="https://i.ibb.co.com/DDsD45J/jahirul-islam.jpg" alt="Mustafijur Rahman" 
+        />
+        <h1 className="text-2xl md:text-3xl font-bold text-center mt-4 text-gray-800">
+        Jahurul Islam</h1>
+        <p className="text-center text-gray-600">⁠Geologist</p>
+        <div className="flex justify-center mt-4 mb-4">
+        <Link to="/structure" className=" mb-3 w-32 py-3 ml-2 text-white rounded px-4">
+        <button className="px-4 py-2 bg-red-400 text-white rounded-full hover:bg-red-500">See Profile</button>
+                         </Link>
+        </div>
+    </div>
 
-                {/* Card 3 */}
-                <div>
-                <div className="relative group w-full h-72 bg-cover bg-center rounded-lg overflow-hidden shadow-lg" style={{ backgroundImage: 'url(https://i.ibb.co.com/XLJ4zBg/cover3.jpg)' }}>
-                    <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 border-orange-500 border-8 transition-opacity duration-300">
-                      
-                    </div>
-                </div>
-                <h2 className="text-center text-blue-500">Engineer</h2>
-                <h2 className="text-center text-black font-bold text-xl">Mohammamad Hasan</h2>
-                </div>
+ 
+</div>
 
-                {/* Card 4 */}
-              <div>
-              <div className="relative group w-full h-72 bg-cover bg-center rounded-lg overflow-hidden shadow-lg" style={{ backgroundImage: 'url(https://i.ibb.co.com/XLJ4zBg/cover3.jpg)' }}>
-                    <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 border-orange-500 border-8 transition-opacity duration-300">
-                       
-                    </div>
-                </div>
-                <h2 className="text-center text-blue-500">Worker</h2>
-                <h2 className="text-center text-black font-bold text-xl">Jashim</h2>
-              </div>
-              <div>
-              <div className="relative group w-full h-72 bg-cover bg-center rounded-lg overflow-hidden shadow-lg" style={{ backgroundImage: 'url(https://i.ibb.co.com/XLJ4zBg/cover3.jpg)' }}>
-                    <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 border-orange-500 border-8 transition-opacity duration-300">
-                       
-                    </div>
-                </div>
-                <h2 className="text-center text-blue-500">Worker</h2>
-                <h2 className="text-center text-black font-bold text-xl">Jashim</h2>
-              </div>
-              <div>
-              <div className="relative group w-full h-72 bg-cover bg-center rounded-lg overflow-hidden shadow-lg" style={{ backgroundImage: 'url(https://i.ibb.co.com/XLJ4zBg/cover3.jpg)' }}>
-                    <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 border-orange-500 border-8 transition-opacity duration-300">
-                       
-                    </div>
-                </div>
-                <h2 className="text-center text-blue-500">Worker</h2>
-                <h2 className="text-center text-black font-bold text-xl">Jashim</h2>
-              </div>
-            </div>
         </div>
     );
 };

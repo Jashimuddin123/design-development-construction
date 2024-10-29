@@ -30,7 +30,8 @@ const Banner = () => {
        
   <img
     className="w-full h-[60vh] sm:h-[70vh] lg:h-[90vh] object-cover mx-auto rounded"
-    src="https://i.ibb.co.com/rFsnGz4/cover1.jpg"
+    src="https://i.ibb.co.com/MDmkXkM/img2.jpg"
+  
     alt="Cover 1"
   />
 <div className="absolute  -top-16 left-0 w-full h-full bg-black bg-opacity-40 flex flex-col justify-end items-center p-4 mb-8 rounded">
@@ -54,7 +55,7 @@ const Banner = () => {
 
   <img
     className="w-full h-[60vh] sm:h-[70vh] lg:h-[90vh] object-cover mx-auto rounded"
-    src="https://i.ibb.co.com/9TRgrZy/cover2.jpg"
+    src="https://i.ibb.co.com/qj15XLz/img3.jpg"
     alt="Cover 2"
   />
   <div className="absolute  -top-16 left-0 w-full h-full bg-black bg-opacity-40 flex flex-col justify-end items-center p-4 mb-8 rounded">
@@ -97,7 +98,7 @@ const Banner = () => {
         <div className="relative">
   <img
     className="w-full h-[60vh] sm:h-[70vh] lg:h-[90vh] object-cover mx-auto rounded"
-    src="https://i.ibb.co.com/rFsnGz4/cover1.jpg"
+      src="https://i.ibb.co.com/MsS9WcH/images7.jpg"
     alt="Cover 4"
   />
   <div className="absolute  -top-16 left-0 w-full h-full bg-black bg-opacity-40 flex flex-col justify-end items-center p-4 mb-8 rounded">
@@ -116,7 +117,7 @@ const Banner = () => {
         {/* You can add more slides as needed */}
       </Swiper>
       <Marquee className="text-5xl font-serif text-red border my-4 text-teal-600" pauseOnHover={true}>
-                    Youngone Corporation is a leading global manufacturer of outdoor/athletic clothing, textiles, footwear, and gear built with a history of innovation, partnership, and trust.
+      "Reliable Construction and Design Services for Residential and Commercial Projects | Quality, Innovation, and Integrity in Every Aspect"
                 </Marquee>
     </div>
   );
