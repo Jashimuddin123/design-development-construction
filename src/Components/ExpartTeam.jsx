@@ -22,7 +22,7 @@ const ExpartTeam = () => {
             alt="Mustafijur Rahman" 
         />
         <h1 className="text-2xl md:text-3xl font-bold text-center mt-4 text-gray-800">Mustafijur Rahman</h1>
-        <p className="text-center text-gray-600">Project Manager</p>
+        <p className="text-center text-gray-600 text-lg font-bold">Project Manager</p>
         <div className="flex justify-center mt-4 mb-4">
             <button className="px-4 py-2 bg-blue-700 text-white w-32 text-lg rounded-full hover:bg-red-500">
                See Profile
@@ -60,7 +60,7 @@ const ExpartTeam = () => {
     <h1 className="text-2xl md:text-3xl font-bold text-center mt-4 text-gray-800">
         Ruhul Quddus
     </h1>
-    <p className="text-center text-gray-600">Chief Structure Engineer</p>
+    <p className="text-center text-gray-600 text-lg font-bold">Chief Structure Engineer</p>
     <div className="flex justify-center mt-4 mb-4">
         <Link to="/structure" className="w-32">
             <button className="px-4 py-2 bg-blue-700 w-32 text-lg text-white rounded-full hover:bg-red-500">See Profile</button>
@@ -78,7 +78,7 @@ const ExpartTeam = () => {
     <h1 className="text-2xl md:text-3xl font-bold text-center mt-4 text-gray-800">
         MD. MOSHIUR RAHMAN
     </h1>
-    <p className="text-center text-gray-600">⁠Structure Engineer</p>
+    <p className="text-center text-gray-600 text-lg font-bold">⁠Structure Engineer</p>
     <div className="flex justify-center mt-4 mb-4">
         <Link to="/structure">
             <button className="px-4 py-2 bg-blue-700 w-32 text-lg text-white rounded-full hover:bg-red-500">
@@ -98,7 +98,7 @@ const ExpartTeam = () => {
     <h1 className="text-2xl md:text-3xl font-bold text-center mt-4 text-gray-800">
         MD. MAHABUBUL ISLAM
     </h1>
-    <p className="text-center text-gray-600">Geotechnical Engineer</p>
+    <p className="text-center text-gray-600 text-lg font-bold">Geotechnical Engineer</p>
     <div className="flex justify-center mt-4 mb-4">
         <Link to="/structure" className="w-32">
             <button className=" py-2 bg-blue-700 w-32 text-lg text-white rounded-full hover:bg-red-500">
@@ -119,7 +119,7 @@ const ExpartTeam = () => {
     <h1 className="text-2xl md:text-3xl font-bold text-center mt-4 text-gray-800">
         Jahurul Islam
     </h1>
-    <p className="text-center text-gray-600">Geologist</p>
+    <p className="text-center text-gray-600 text-lg font-bold">Geologist</p>
     <div className="flex justify-center mt-4 mb-4">
         <Link to="/structure" className="w-full max-w-xs flex justify-center">
             <button className="px-4 py-2 bg-blue-700 w-32 text-lg text-white rounded-full hover:bg-red-500">
