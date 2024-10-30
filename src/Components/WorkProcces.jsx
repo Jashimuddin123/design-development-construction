@@ -40,7 +40,7 @@ const WorkProcces = () => {
                     {/* Overlay */}
                     <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition duration-300"></div>
                     <div className="card-body items-center text-center relative z-10 group-hover:text-white">
-                        <h2 className="card-title text-lg md:text-xl font-bold">Survey Phase</h2>
+                        <h2 className="card-title text-lg md:text-xl font-semibold">Survey Phase</h2>
                        
                     </div>
                 </div>

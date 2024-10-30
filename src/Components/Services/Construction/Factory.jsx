@@ -18,11 +18,11 @@ const Factory = () => {
              src="https://i.ibb.co.com/18WsQX5/img3.jpg" alt="" />
             <img 
             className="w-full h-96 rounded" 
-            src="https://i.ibb.co.com/x12cKty/img4.jpg" alt="" />
+            src="https://i.ibb.co.com/GV8sD42/factory4.jpg" alt="" />
 
             <img
             className="w-full h-96 rounded"
-             src="https://i.ibb.co.com/DwX14cb/img5.jpg" alt="" />
+             src="https://i.ibb.co.com/PQZndkS/factory.webp" alt="" />
 
             <img 
             className="w-full h-96 rounded"

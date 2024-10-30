@@ -30,7 +30,7 @@ const Navbar = () => {
           <ul className="absolute bg-teal-950 text-white mt-10 w-56 rounded-lg z-10">
             <li className="p-2">
               <NavLink to="/companyProfile" activeClassName="text-red-500">
-               Firm History
+                Firm History
               </NavLink>
             </li>
             <li className="p-2">
@@ -105,12 +105,13 @@ const Navbar = () => {
             {navLinks}
           </ul>
         </div>
+        
         {/* Logo or Title */}
-        <a className="btn btn-ghost text-lg flex flex-col md:flex-col">
-  <span className="text-red-800 text-6xl font-bold">Acon</span> <br />
-  <span className="hidden md:block text-md">Design & Development </span>
-</a>
-
+   
+        <div className=" flex flex-col ml-6">
+        <span className="text-red-800 text-4xl lg:text-6xl font-bold">Acon</span> 
+        <span className="text-md lg:text-xl">Design & Development</span>
+        </div>
       </div>
 
       {/* Desktop Navigation */}

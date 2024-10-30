@@ -8,7 +8,7 @@ const Survey = () => {
         <div className="grid grid-cols-3 gap-x-6 gap-y-4 mt-4">
             <img 
             className="w-full h-96 rounded" 
-            src="https://i.ibb.co.com/fDVkPvr/img1.jpg" alt="" />
+            src="https://i.ibb.co.com/PhkxJs8/img1.webp" alt="" />
 
             <img
             className="w-full h-96 rounded"
@@ -19,7 +19,7 @@ const Survey = () => {
              src="https://i.ibb.co.com/qj15XLz/img3.jpg" alt="" />
             <img 
             className="w-full h-96 rounded" 
-            src="https://i.ibb.co.com/wMqB3mh/img4.jpg" alt="" />
+            src="https://i.ibb.co.com/dKvYt4j/img4.webp" alt="" />
 
             <img
             className="w-full h-96 rounded"

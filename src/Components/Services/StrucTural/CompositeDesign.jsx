@@ -25,7 +25,7 @@ const CompositeDesign = () => {
 
             <img
             className="w-full h-96 rounded"
-             src="https://i.ibb.co.com/C2tS3vc/images5.jpg" alt="" />
+             src="https://i.ibb.co.com/ydG2Kqm/Untitled-design-9.webp" alt="" />
 
             <img 
             className="w-full h-96 rounded"

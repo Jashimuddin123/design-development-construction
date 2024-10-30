@@ -11,11 +11,11 @@ const BuildingConstruction = () => {
 
             <img
             className="w-full h-96 rounded"
-             src="https://i.ibb.co.com/sypCmty/img9.webp" alt="" />
+             src="https://i.ibb.co.com/fNbvP1t/monolithic-construction-construction-site-summer-220838-125.jpg" alt="" />
 
             <img 
             className="w-full h-96 rounded"
-             src="https://i.ibb.co.com/WDjMfz5/img3.webp" alt="" />
+             src="https://i.ibb.co.com/ykNFfZZ/img6.webp" alt="" />
             <img 
             className="w-full h-96 rounded" 
             src="https://i.ibb.co.com/VxT3tVP/img4.jpg" alt="" />
@@ -35,7 +35,7 @@ const BuildingConstruction = () => {
              src="https://i.ibb.co.com/TL9zkqv/img8.jpg" alt="" />
             <img 
             className="w-full h-96 rounded"
-             src="https://i.ibb.co.com/sypCmty/img9.webp" alt="" />
+             src="https://i.ibb.co.com/cX6np8P/images9.jpg" alt="" />
         </div>
 
         <div className="flex justify-center mt-6">

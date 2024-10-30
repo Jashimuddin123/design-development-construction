@@ -14,7 +14,7 @@ const ArchitecturelPlan = () => {
                     </figure>
                     <div className="card-body text-center p-4">
                         <h2 className="font-bold text-lg">Architecture Design 1</h2>
-                        <p className="text-gray-600">Description of the architecture design can go here.</p>
+                        
                     </div>
                 </div>
                 <div className="card card-compact border-4 border-teal-700 bg-base-100 w-full shadow-lg transition-transform duration-300 ease-in-out hover:shadow-xl hover:border-2 hover:border-blue-500 hover:-translate-y-2">
@@ -27,7 +27,7 @@ const ArchitecturelPlan = () => {
                     </figure>
                     <div className="card-body text-center p-4">
                         <h2 className="font-bold text-lg">Architecture Design 2</h2>
-                        <p className="text-gray-600">Description of the architecture design can go here.</p>
+                        
                     </div>
                 </div>
                 <div className="card border-4 border-teal-700 card-compact bg-base-100 w-full shadow-lg transition-transform duration-300 ease-in-out hover:shadow-xl hover:border-2 hover:border-blue-500 hover:-translate-y-2">
@@ -40,7 +40,7 @@ const ArchitecturelPlan = () => {
                     </figure>
                     <div className="card-body text-center p-4">
                         <h2 className="font-bold text-lg">Architecture Design 3</h2>
-                        <p className="text-gray-600">Description of the architecture design can go here.</p>
+                        
                     </div>
                 </div>
                 <div className="card border-4 border-teal-700 card-compact bg-base-100 w-full shadow-lg transition-transform duration-300 ease-in-out hover:shadow-xl hover:border-2 hover:border-blue-500 hover:-translate-y-2">
@@ -53,7 +53,7 @@ const ArchitecturelPlan = () => {
                     </figure>
                     <div className="card-body  text-center p-4">
                         <h2 className="font-bold text-lg">Architecture Design 4</h2>
-                        <p className="text-gray-600">Description of the architecture design can go here.</p>
+                        
                     </div>
                 </div>
                 <div className="card card-compact border-4 border-teal-700 bg-base-100 w-full shadow-lg transition-transform duration-300 ease-in-out hover:shadow-xl hover:border-2 hover:border-blue-500 hover:-translate-y-2">
@@ -66,7 +66,7 @@ const ArchitecturelPlan = () => {
                     </figure>
                     <div className="card-body text-center p-4">
                         <h2 className="font-bold text-lg">Architecture Design 5</h2>
-                        <p className="text-gray-600">Description of the architecture design can go here.</p>
+                        
                     </div>
                 </div>
                 <div className="card border-4 border-teal-700 card-compact bg-base-100 w-full shadow-lg transition-transform duration-300 ease-in-out hover:shadow-xl hover:border-2 hover:border-blue-500 hover:-translate-y-2">
@@ -79,7 +79,7 @@ const ArchitecturelPlan = () => {
                     </figure>
                     <div className="card-body text-center p-4">
                         <h2 className="font-bold text-lg">Architecture Design 6</h2>
-                        <p className="text-gray-600">Description of the architecture design can go here.</p>
+                       
                     </div>
                 </div>
                 <div className="card border-4 border-teal-700 card-compact bg-base-100 w-full shadow-lg transition-transform duration-300 ease-in-out hover:shadow-xl hover:border-2 hover:border-blue-500 hover:-translate-y-2">
@@ -92,7 +92,7 @@ const ArchitecturelPlan = () => {
                     </figure>
                     <div className="card-body text-center p-4">
                         <h2 className="font-bold text-lg">Architecture Design 7</h2>
-                        <p className="text-gray-600">Description of the architecture design can go here.</p>
+                       
                     </div>
                 </div>
                 <div className="card border-4 border-teal-700 card-compact bg-base-100 w-full shadow-lg transition-transform duration-300 ease-in-out hover:shadow-xl hover:border-2 hover:border-blue-500 hover:-translate-y-2">
@@ -105,7 +105,7 @@ const ArchitecturelPlan = () => {
                     </figure>
                     <div className="card-body text-center p-4">
                         <h2 className="font-bold text-lg">Architecture Design 8</h2>
-                        <p className="text-gray-600">Description of the architecture design can go here.</p>
+                        
                     </div>
                 </div>
             </div>

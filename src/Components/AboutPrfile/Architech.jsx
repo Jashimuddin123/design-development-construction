@@ -10,11 +10,12 @@ const Architech = () => {
                     />
                 </div>
                 <div className="text-center lg:text-left md:w-3/4 lg:flex-2 text-gray-700 space-y-4">
-                    <h2 className="text-2xl md:text-3xl font-extrabold text-gray-800 leading-tight">Ferdoush Hasan</h2>
+                    <h2 className="text-2xl md:text-3xl font-extrabold text-gray-800 leading-tight">Ferdoush Hasann</h2>
                     <p className="text-base md:text-lg text-red-500 font-semibold">Architect</p>
-                    <p className="text-sm md:text-base text-gray-600 leading-relaxed">
-                    <span className="font-bold">Ferdoush Hasan</span> completed his B.Sc. in Civil Engineering from <span className="font-bold">BUET</span>. 
-                    He is an accomplished architect whose commitment to innovation and design excellence has shaped her into a trusted leader in the architecture field. With a background rooted in education and a vision of sustainable urban development, he founded his firm with a mission to create spaces that are both functional and inspiring. Driven by a passion for social responsibility, she assembled a team of skilled professionals, including two distinguished BUET graduates, to deliver high-quality designs and engineering solutions. Through her expertise in planning, client engagement, and her strong technical background, Ferdoush has guided the firm to become a reliable partner in <span className="font-bold">structural and architectural solutions</span>.
+                    <p className="text-sm md:text-lg text-gray-500 leading-relaxed">
+                    <span className="font-bold">Ferdoush Hasann</span> completed his B.Sc. in Bangladesh University Of Engineering And Technology From <span className="font-bold">BUET</span>. 
+                    He Achieved BERGER Award For Excellence in Architecture with Chorcha Sthapatijog in (2023) <br />
+                    He Has got Skkiled AutoDesk AutoCDA,Sketchup pro,Rhino+Grasshopper,Enscape, Adobe Photoshop,Illustrator,Windows Office,Architectural Model Marketing ect.
                        
                     </p>
                 </div>

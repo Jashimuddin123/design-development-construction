@@ -2,7 +2,7 @@ import { FaPhone } from "react-icons/fa";
 
 const ContactUs = () => {
   return (
-    <div className="min-h-screen bg-gray-100">
+    <div id="contact" className="min-h-screen bg-gray-100">
       {/* Top banner */}
       <div className="bg-[url('https://i.ibb.co/XLJ4zBg/cover3.jpg')] bg-cover bg-center text-white py-10 px-4 md:px-10 h-56 flex flex-col items-center justify-center">
         <h2 className="text-3xl md:text-4xl text-orange-600 font-bold">Contact Us</h2>
@@ -23,7 +23,7 @@ const ContactUs = () => {
           <div className="flex-1 space-y-8">
             <h3 className="text-2xl md:text-4xl font-semibold text-pink-700">Get In Touch</h3>
             {/* Dhaka Office Section */}
-            <div className="space-y-4">
+            <div className="space-y-4 text-lg">
               <h4 className="text-xl md:text-2xl font-semibold text-pink-600">Dhaka Office</h4>
               <ul className="space-y-2 text-gray-600">
                 <li className="flex items-center gap-2">
@@ -32,20 +32,20 @@ const ContactUs = () => {
                 </li>
                 <li className="flex items-center gap-2">
                   <i className="fas fa-envelope text-red-500"></i>
-                 <p>01918378842</p> <br />
                   <p>acondd.bd@gmail.com</p>
                 </li>
+                <li>Abdulla Al Jubair</li>
               </ul>
               <div className="flex items-center gap-2 text-gray-700">
                 <h1 className="text-lg font-bold flex items-center gap-2">
                 <FaPhone className="text-red-600" /> :
                 </h1>
-                <p>01740339433</p>
+                <p>01918378842</p>
               </div>
             </div>
 
             {/* Pabna Branch Section */}
-            <div className="space-y-4">
+            <div className="space-y-4 text-lg">
               <h4 className="text-xl md:text-2xl font-semibold text-pink-600">Pabna Branch</h4>
               <ul className="space-y-2 text-gray-600">
                 <li className="flex items-center gap-2">
@@ -53,17 +53,16 @@ const ContactUs = () => {
                   Shopnonir, Shalgaria Food Godown, Pabna Sadar, Pabna
                 </li>
                 <li className="flex items-center gap-2">
-                  <i className="fas fa-envelope text-red-500"></i>
-                  Mostafizur Rahman
-                  <i>01737768108</i> 
+                  <i className="fas fa-envelope text-red-500">  </i>
                   <p>acondd.bd@gmail.com</p>
                 </li>
+                <li>Mostafizur Rahma</li>
               </ul>
               <div className="flex items-center gap-2 text-gray-700">
                 <h1 className="text-lg font-bold flex items-center gap-2">
                    <FaPhone className="text-red-600" /> :
                 </h1>
-                <p>01740339433</p>
+                <p>01737768108</p>
               </div>
             </div>
           </div>

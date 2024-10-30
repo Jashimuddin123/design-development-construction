@@ -1,5 +1,6 @@
 import { FaGithub, FaInstagram } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -9,26 +10,26 @@ const Footer = () => {
         {/* Logo and Description */}
         <div>
           <h2 className="text-4xl text-red-800 font-bold mb-4">Acon</h2>
-          <p>Design & Development Firm</p>
+          <p className="text-lg">Design & Development Firm</p>
        
         </div>
         
         {/* Useful Links */}
         <div>
           <h3 className="text-xl font-bold mb-4">Useful links</h3>
-          <ul className="text-gray-300">
-            <li className="mb-2"><a href="#">Our Process</a></li>
-            <li className="mb-2"><a href="#">Our Team</a></li>
-            <li className="mb-2"><a href="#">Contact Us</a></li>
+          <ul className="text-gray-300 text-lg">
+            <Link to="/ourService"><li className="mb-2"><a href="#">Our Process</a></li></Link>
+            <Link to="/structure"><li className="mb-2"><a href="#">Our Team</a></li></Link>
+            <Link to="/contactUs"><li className="mb-2"><a href="#">Contact Us</a></li></Link>
             <li className="mb-2"><a href="#">Our Clients</a></li>
-            <li><a href="#">About Us</a></li>
+            <Link to="/companyProfile"><li className="mb-2"><a href="#">About Us</a></li></Link>
           </ul>
         </div>
         
         {/* Services */}
         <div>
           <h3 className="text-xl font-bold mb-4">Our Services</h3>
-          <ul className="text-gray-300">
+          <ul className="text-gray-300 text-lg">
             <li className="mb-2"><a href="#">Sub soil investigation </a></li>
             <li className="mb-2"><a href="#">Survey </a></li>
             <li className="mb-2"><a href="#">Architectural Design</a></li>
@@ -41,15 +42,15 @@ const Footer = () => {
         {/* Contact Information */}
         <div>
           <h3 className="text-xl font-bold mb-4">Our Contact</h3>
-          <p className="text-gray-300 mb-4">
+          <p className="text-gray-300 text-lg mb-4">
             Near Dhaka 201, Mirpur Road, Shymoli,Adabor, Dhaka
           </p>
-          <p className="mb-2">
+          <p className="mb-2 text-lg">
             <i className="fas fa-phone-alt"></i>
             <p>01918378842</p>
           </p>
-          <p className="">
-            <i className="fas fa-envelope"></i>acondd.bd@gmail.com
+          <p className="text-lg">
+            <i className="fas fa-envelope "></i>acondd.bd@gmail.com
           </p>
           <div className="space-x-4 ml-4  flex mt-6 items-center  w-52 gap-2">
           <a href="#" className=""><FaFacebook className="text-2xl"/></a>
@@ -61,7 +62,7 @@ const Footer = () => {
       
       {/* Social Links */}
       <div className="w-full px-4 mt-10 text-center flex justify-center items-center border-t border-gray-600 pt-6">
-        <div className="text-gray-400 text-center mx-auto">
+        <div className="text-gray-400 text-lg text-center mx-auto">
           &copy; 2024 Acon All Rights Reserved.
         </div>
       
